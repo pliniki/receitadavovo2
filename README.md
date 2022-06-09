@@ -1,4 +1,4 @@
-# Reitas da Vovo
+# Receitas da Vovo
 
 Site de receitas da Vovo palmirinha para quem está aprendendo a cozinhar.
 
