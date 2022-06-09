@@ -1,0 +1,149 @@
+/*Sobre display flex https://www.w3schools.com/css/css3_flexbox_container.asp*/
+
+/*Global*/
+
+
+h2 {
+  font-size: 28px;
+  color: rgb(38, 168, 168);
+}
+
+/*Para colocar o tamanho dos icons => flaticon*/
+.tm-social {
+  width: 50px;
+  height: 50px;
+  padding: 30px;
+}
+
+/*Para alinhar objetos footer*/
+.i-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*Para alinhar texto*/
+.t-center {
+  text-align: center;
+}
+
+/*Colocar uma img do lado do text*/
+.container {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.pd-30 {
+  padding: 30px;
+}
+
+.order-list {
+  margin-right: 250px;
+}
+
+.cake-img {
+  width: 500px;
+  height: 400px;
+}
+
+.br-50 {
+  border-radius: max(60%);
+}
+
+/*Menu*/
+#menu li {
+  display: inline;
+  padding: 30px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: rgb(38, 168, 168);
+}
+
+#menu a li:hover {
+  color: rgb(25, 69, 163);
+}
+
+/*Contact*/
+
+.flex-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-space{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  color: white; /* Add a text color */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  font-size: 16px; 
+}
+
+/* Blue */
+.info {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
