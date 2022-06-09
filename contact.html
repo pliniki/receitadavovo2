@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receitas Mais1Code</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <!-- Menu -->
+    <div id="menu">
+      <ul>
+        <a href="index.html">
+          <li>
+            Home
+          </li>
+        </a>
+        <a href="contact.html">
+          <li>
+            Contato
+          </li>
+        </a>
+      </ul>
+    </div>
+    <!-- /Menu -->
+  <div class="container-space pd-30">
+    <div class="flex-form" >
+       <form action="" class="form-container">
+        <label for="nome">Nome</label> 
+        <input type="nome" id="nome" onkeyup="validarNome()">
+        <div id="txtNome" onkeyup="validarNome()"></div>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" onkeyup="ValidarEmail()">
+        <div id="txtEmail" onkeyup="ValidarEmail()"></div>
+
+        <label for="assunto">Assunto</label>
+        <textarea name="assunto" cols="30" rows="10" id="assunto" onkeyup="ValidarAssunto()"></textarea>
+        <div id="txtAssunto" onkeyup="ValidarAssunto()"></div>
+      </form>
+      <!-- Trigger/Open The Modal -->
+      <br>
+      <button id="myBtn" class="btn info">Enviar</button>
+      <br>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Mensagem enviada com sucesso</p>
+      </div>
+
+      </div>
+    </div>
+
+    <div class="flex-form pd-30">
+      <br>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.3976690190334!2d-46.41340878563152!3d-23.482181764556735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63badafe5349%3A0xca37f2efadcf151e!2sR.%20Borboleta%20Amarela%2C%20485%20-%20Jardim%20Sao%20Martinho%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2080815-570!5e0!3m2!1spt-PT!2sbr!4v1653345917804!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+   <!-- <div class="container-space pd-30">
+      <form class="flex-form">
+        <h2 class="t-center">Entre em contato comigo!</h2>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" onkeyup="" />
+        <div id="txtNome"></div>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" onkeyup="validarEmail()" />
+        <div id="txtEmail"></div>
+
+        <label for="assunto">Assunto:</label>
+        <textarea
+          name="assunto"
+          id="assunto"
+          cols="30"
+          rows="10"
+          onkeyup="validarAssunto()"
+        ></textarea>
+        <div id="txtAssunto"></div>
+
+        <button id="enviar">Enviar</button>
+      </form>
+
+      <div class="flex-form pd-30">
+        <p class="t-center">Rua Borboleta Amarela, 481 - Sao Paulo/SP</p>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4479.249103173018!2d-46.41183520455923!3d-23.483640589807713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63badb444607%3A0x99b33db872d0e8aa!2sR.%20Borboleta%20Amarela%2C%20481%20-%20Jardim%20Sao%20Martinho%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008081-570!5e0!3m2!1spt-BR!2sbr!4v1651506721820!5m2!1spt-BR!2sbr"
+          width="500"
+          height="350"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div> -->
+
+    <!--Rodape-->
+    <footer class="i-center">
+      <div>
+        <a href="https://www.facebook.com/" target="_blank">
+          <img class="tm-social" src="assets/img/facebook.png" alt="facebook" />
+        </a>
+
+        <a href="https://www.instagram.com" target="_blank">
+          <img
+            class="tm-social"
+            src="assets/img/instagram.png"
+            alt="instagram"
+          />
+        </a>
+
+        <a href="https://www.youtube.com" target="_blank">
+          <img class="tm-social" src="assets/img/youtube.png" alt="youtube" />
+        </a>
+
+        <a href="https://www.whatsapp.com" target="_blank">
+          <img class="tm-social" src="assets/img/whatsapp.png" alt="Whatsapp" />
+        </a>
+      </div>
+      <p class="t-center">
+        &copy; Todos os direiros reservados a Receitas da Vovo
+      </p>
+    </footer>
+    <!--/Rodape-->
+
+    <!--Scripts-->
+    <script src="/assets/js/script.js"></script>
+
+  </body>
+</html>
